@@ -6,44 +6,30 @@ body {
   height: 1000px;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.navbar {
-  background-color: #333;
-  color: #ffffff;
-  padding: 10px 20px;
-}
-
-.nav-links {
-  display: flex;
-  gap: 15px;
-}
-
-.nav-links a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.nav-links a:hover {
-  text-decoration: underline;
+img {
+  width: auto;
+  height: auto;
+  
 }
 
 .container {
-  border-radius: 20px;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
-  top: 100px;
+  top: 25%;
   max-width: 400px;
   margin: 20px auto;
   padding: 0 20px;
-  box-shadow: 2px 2px 12px #333;
-  background-color: #fff;
+  box-shadow: 2px 2px 5px #333;
+  background-color: #fafafa;
+}
+
+.instagram-logo {
+  width: 250px;
+  height: 170px;
+  margin-top: 20px;
 }
 
 .form-box {
@@ -55,34 +41,103 @@ nav {
   
 }
 
+.input-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  gap: 10px;
+}
+
 .input-box {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  margin-top: 20px
+  align-items: center;
+  gap: 10px;
+  margin: 5px 0;
 }
 
-input[type="text"],
-input[type="email"],
+
+input[type="text, number, email"],
 input[type="password"] {
-  width: 100%;
+  width: 300px;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
 
+
 button {
-  padding: 10px 20px;
-  width: 150px;
-  background-color: #333;
+  padding: 10px 15px;     
+  width: 300px;
+  background-color: #4377e9;
   color: #fff;
+  font-weight: 600;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   margin-top: 10px;
 }
 
-.input-box label {
-  margin-bottom: 5px;
-  font-weight: 600;
+.divider-or-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: row;
+
+}
+.divider {
+  width: 100%;
+  margin: 10px 0;
+}
+
+hr.divider {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+  width: 100%;
+}
+.divider-text-or {
+  font-size: 14px;
+  color: #888;
+  font-weight: 450;
+}
+
+.facebook-login-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.facebook-login {
+  display: flex;
+  align-items: center;
+  color: #416ece;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.remember-forgot { 
+  font-size: 13px;
+}
+
+.login-register {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 80px;
+  max-width: 400px;
+  width: 400px;
+  height: 10vh;
+  padding: 0 20px;
+  box-shadow: 2px 2px 5px #333;
+  background-color: #fafafa;
 }
