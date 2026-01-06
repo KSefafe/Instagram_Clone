@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body, div {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+
+}
+
+body {
+  height: 2000px;
+}
+
+.content {
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  right: 350px;
+}
+
+@media (max-width: 1200px) {
+  .content {
+    position: absolute;
+    top: 10px;
+    bottom: 0;
+    right: 100px;
+  }
+}
+
+@media (max-width: 960px) {
+  .content {
+    position: absolute;
+    top: 10px;
+    bottom: 0;
+    right: 50px;
+    flex: 1;
+  }
+}
