@@ -1,0 +1,44 @@
+.footer-container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  border-top: solid 1px rgb(228, 228, 228);
+  background-color: white;
+  z-index: 2;
+}
+
+.footer-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  border: none;
+}
+
+.footerlogos-home {
+  width: 30px;
+  height: 30px;
+}
+
+.footerlogos {
+  width: 24px;
+  height: 23px;
+  margin-right: 0px;
+}
+
+.footer-profile-pic {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+@media (min-width: 960px) {
+  .footer {
+    opacity: 0;
+    z-index: 0;
+  }
+}
