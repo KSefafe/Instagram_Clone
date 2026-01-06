@@ -1,0 +1,100 @@
+.header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid rgb(228, 228, 228);
+  justify-content: space-between;
+  z-index: 2;
+  opacity: 1;
+}
+
+.left-section {
+  display: flex;
+}
+
+.header-logo-container {
+  border: none;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-insta-logo {
+  width: 120px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.search-box-container {
+  border: none;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40px;
+}
+
+
+.search-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+.search-logo {
+  object-fit: cover;
+  object-position: center;
+  width: 45px;
+  height: 36.5px;
+  border: 2px solid rgb(243, 241, 241);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  
+}
+
+.search-bar {
+  border: none;
+  font-size: 16px;
+  color: rgb(185, 178, 178);
+  background-color: rgb(243, 241, 241);
+  height: 40px;
+  width: 250px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.like-heart-container {
+  margin-right: 30px;
+}
+
+.like-heart-logo {
+  width: 25px;
+  transition: width 0.15s;
+}
+
+.like-heart-logo:hover {
+  width: 27px;
+}
+
+@media (min-width: 960px) {
+  .header {
+    opacity: 0;
+    z-index: 0;
+  }
+}
