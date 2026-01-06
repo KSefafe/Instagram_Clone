@@ -1,6 +1,5 @@
 .content-container {
   margin-top: 90px;
-  margin-left: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,8 +7,6 @@
   border: none;
   height: 900px;
   width: 640px;
-  border: none;
-  
 }
 
 @media (min-width: 960px) {
@@ -95,8 +92,8 @@
   position: absolute;
   top: 40px;
   bottom: 0;
-  width: 300px;
-  height: 210px;
+  width: 25vw;
+  height: 32vh;
   background-color: white;
   pointer-events: none;
   white-space: nowrap;
@@ -188,8 +185,10 @@
 }
 
 .info-image-posts {
-  width: 95px;
-  height: 95px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
 }
 
 
